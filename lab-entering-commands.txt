@@ -17,8 +17,13 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
+Adlm				Music				ipe.properties
+Applications			NewPizza			isus
+Desktop				Pictures			lab_01_commandline_01
+Documents			Public				pslog_20200109_170408.log
+Downloads			QLData				pymel.log
+Library				Things				xgen
+Movies				Wilson-MTEC2230-Spring2020
 
 ==========
 2a. Type: 
@@ -27,13 +32,13 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+It lists all directories that begin with the letter D
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
@@ -49,7 +54,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+drwxrwxrwx  15 student  staff    510 Jan  9 17:04 Adobe
+drwxr-xr-x   3 student  staff    102 Aug 22  2016 Arduino
 
 
 ==========
@@ -59,7 +65,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.				Fritzing			Pro Tools
+..				Initial Meeting Agenda.docx	Processing
 
 
 ==========
@@ -69,7 +76,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -79,7 +86,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -l Documents
 
 
 ==========
@@ -89,7 +96,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Tab autocompletes the name of a directory.
 
 
 ==========
@@ -100,30 +107,31 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+The UP Key
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-ls
+-a
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+The TAB key
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
