@@ -44,6 +44,7 @@ Desktop/   Documents/ Downloads/
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
+Display all 3226 possibilities? (y or n)
 
 
 
@@ -137,7 +138,7 @@ ls
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Documents
 
 
 ==========
@@ -148,7 +149,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -158,7 +159,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -167,3 +168,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is ls
+The flag is -a
+the argument is Desktop
+the prompt is $
