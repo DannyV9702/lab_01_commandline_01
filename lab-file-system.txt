@@ -206,14 +206,14 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 ==========
 19. Make another directory called aardvark.  
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -222,7 +222,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+02/10/2020  11:22 PM    <DIR>          aardvark
 
 ==========
 21. Make 3 directories nested within each other:
@@ -234,7 +234,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
@@ -242,51 +242,52 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo/bar/baz
 
 ==========
 23. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+cd ..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
-
-
+pwd
+//or in windows
+dir
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+ls -a
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+The name of a file or folder within a file system.
 
 ==========
 29. What's a directory?
 ----------
 
-
+A directory is a cataloging system within a file system that may list other files and directories
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+cd /Users/student/Downloads
